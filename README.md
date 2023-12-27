@@ -2,17 +2,21 @@
 
 This is a solution to [John Crickett's Coding Challenge #1 - Build your own wc!](https://codingchallenges.substack.com/p/coding-challenge-1)
 
+## Requirements
+
+[Install .NET](https://dotnet.microsoft.com/en-us/download)
+
 ## Usage
 
 ```bash
 # Build the Project
-make build
+dotnet build
 
-# Run the Project
-make run
+# Run the Project (also builds it)
+dotnet run --project WordCountApp
 
 # Clean the Project
-make clean
+dotnet clean
 ```
 
 ## Resources / References
